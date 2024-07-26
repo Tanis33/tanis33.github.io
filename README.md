@@ -1,4 +1,4 @@
-Ben Tanis 
-Personal Website Updated
+Ben Tanis <br />
+Personal Website Updated <br />
 -Rewrote Website
 -
