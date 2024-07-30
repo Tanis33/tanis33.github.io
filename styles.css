@@ -58,7 +58,6 @@ footer {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-
 .contact-card {
   max-width: 400px;
   margin: 20px auto;
@@ -70,6 +69,7 @@ footer {
 }
 .contact-card h3 {
   margin-top: 0;
+  font-size: 22px;
 }
 .contact-card p {
   margin: 5px 0;
@@ -77,7 +77,27 @@ footer {
 .contact-card a {
   color: #007BFF;
   text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card a .icon {
+  margin-right: 8px;
 }
 .contact-card a:hover {
   text-decoration: underline;
+}
+.contact-card .contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.contact-card .contact-item img.icon {
+  width: 24px;
+  height: 24px; 
+  margin-right: 10px; 
 }
