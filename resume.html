@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ben Tanis Resume</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .resume {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .resume h3 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .resume-section {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -20,20 +39,45 @@
     </nav>
   </header>
 
-  <main>
-    <!-- Add your resume content here -->
-    <section>
-      <h2>Resume</h2>
-      <p>Add your resume content here...</p>
-      <!-- Example of resume sections -->
+  <main class="resume">
+    <section class="resume-section">
       <h3>Education</h3>
-      <p>Details about your education...</p>
+      <p><strong>Calvin University</strong>, Bachelor of Computer Science, May 2024</p>
+      <p>Exchange Program at Technische Universität Berlin, focus on engineering and German language and culture</p>
+    </section>
 
+    <section class="resume-section">
       <h3>Experience</h3>
-      <p>Details about your experience...</p>
+      <p><strong>Apple Inc.</strong>, Reseller Specialist</p>
+      <p>Worked as a Reseller Specialist, providing excellent customer service and technical support for Apple products.</p>
+      
+      <p><strong>Ligonier Camp and Conference Center</strong>, Adventure Staff</p>
+      <p>Served as Adventure Staff, facilitating outdoor activities and ensuring safety and engagement for participants.</p>
+      
+      <p><strong>Katapult Engineering</strong>, Intern</p>
+      <p>Completed an internship, gaining hands-on experience in engineering projects and contributing to team efforts.</p>
+    </section>
 
-      <h3>Skills</h3>
-      <p>Details about your skills...</p>
+    <section class="resume-section">
+      <h3>Technical Skills</h3>
+      <p>Proficient in the following languages and frameworks:</p>
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML/CSS</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>and more...</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h3>Projects</h3>
+      <p>Details about projects can be found on the <a href="portfolio.html">portfolio</a> page.</p>
+    </section>
+
+    <section class="resume-section">
+      <h3>Extracurricular Activities</h3>
+      <p>Member of Calvin Esports and the Calvin Rugby Club, participating in team events and contributing to club activities.</p>
     </section>
   </main>
 
