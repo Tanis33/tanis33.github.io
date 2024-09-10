@@ -6,7 +6,7 @@
   <title>Ben Tanis Resume</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    .resume {
+    .resume-container {
       max-width: 800px;
       margin: 20px auto;
       padding: 20px;
@@ -15,74 +15,43 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .resume h3 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-    }
-    .resume-section {
-      margin-bottom: 20px;
+    .pdf-embed {
+      width: 100%;
+      height: 600px;
+      border: none;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Ben Tanis</h1>
-    <h2>Web Developer</h2>
+    <h2>Developer</h2>
     <nav>
       <ul>
         <li><a href="index.html">home</a></li>
         <li><a href="resume.html">resume</a></li>
         <li><a href="portfolio.html">portfolio</a></li>
-        <li><a href="contact.html">contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="resume">
+  <main class="resume-container">
     <section class="resume-section">
-      <h3>Education</h3>
-      <p><strong>Calvin University</strong>, Bachelor of Computer Science, May 2024</p>
-      <p>Exchange Program at Technische Universität Berlin, focus on engineering and German language and culture</p>
-    </section>
-
-    <section class="resume-section">
-      <h3>Experience</h3>
-      <p><strong>Apple Inc.</strong>, Reseller Specialist</p>
-      <p>Worked as a Reseller Specialist, providing excellent customer service and technical support for Apple products.</p>
-      
-      <p><strong>Ligonier Camp and Conference Center</strong>, Adventure Staff</p>
-      <p>Served as Adventure Staff, facilitating outdoor activities and ensuring safety and engagement for participants.</p>
-      
-      <p><strong>Katapult Engineering</strong>, Intern</p>
-      <p>Completed an internship, gaining hands-on experience in engineering projects and contributing to team efforts.</p>
-    </section>
-
-    <section class="resume-section">
-      <h3>Technical Skills</h3>
-      <p>Proficient in the following languages and frameworks:</p>
-      <ul>
-        <li>JavaScript</li>
-        <li>HTML/CSS</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>and more...</li>
-      </ul>
-    </section>
-
-    <section class="resume-section">
-      <h3>Projects</h3>
-      <p>Details about projects can be found on the <a href="portfolio.html">portfolio</a> page.</p>
-    </section>
-
-    <section class="resume-section">
-      <h3>Extracurricular Activities</h3>
-      <p>Member of Calvin Esports and the Calvin Rugby Club, participating in team events and contributing to club activities.</p>
+      <embed src="/BenTanisResume910.pdf" class="pdf-embed" type="application/pdf">
+      <!-- Alternatively, you can use an iframe instead of embed -->
+      <!-- <iframe src="/mnt/data/BenTanisResume910.pdf" class="pdf-embed"></iframe> -->
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 Ben Tanis. All rights reserved.</p>
+    <div class="footer-content">
+      <div class="contact-links">
+        <a href="mailto:bentanis00@gmail.com"><img src="images/mail.png" alt="Email Icon" class="icon">Email</a>
+        <a href="https://www.linkedin.com/in/benjamin-tanis-b20320191/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn Icon" class="icon">LinkedIn</a>
+        <a href="https://github.com/tanis33" target="_blank"><img src="images/github.png" alt="GitHub Icon" class="icon">GitHub</a>
+      </div>
+      <p>&copy; 2024 Ben Tanis. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>

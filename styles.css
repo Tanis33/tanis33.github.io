@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #f8f9fa;
+  background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -57,46 +57,38 @@ footer {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.contact-card {
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f9f9f9;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: center;
+
+/* Footer Styles */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
 }
-.contact-card h3 {
-  margin-top: 0;
-  font-size: 22px;
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.contact-card p {
-  margin: 5px 0;
+
+.contact-links {
+  display: flex;
+  align-items: center; /* Aligns items in the middle */
+  gap: 30px; /* Space between the icons */
 }
-.contact-card a {
-  color: #007BFF;
+
+.contact-links a {
+  display: flex;
+  align-items: center; /* Ensures text and icons are aligned in a row */
   text-decoration: none;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #333;
+  font-size: 16px;
 }
 
-.contact-card a .icon {
-  margin-right: 8px;
-}
-.contact-card a:hover {
-  text-decoration: underline;
-}
-.contact-card .contact-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0;
-}
-
-.contact-card .contact-item img.icon {
-  width: 24px;
-  height: 24px; 
-  margin-right: 10px; 
+.icon {
+  width: 24px; /* Adjust size of the icons */
+  height: 24px;
+  margin-right: 8px; /* Space between the icon and the text */
 }
